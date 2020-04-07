@@ -1,0 +1,90 @@
+/*Configuração da Div*/
+.divA {
+    color: black;    
+    height: 100px;
+    border-bottom: 1px solid rgb(216, 209, 209); 
+}
+.divB {
+    height: 850px;   
+}
+.divC {
+    color: white;
+    height: 30px;    
+}
+.divC p{
+    text-align: center;
+}
+.container-fluid {
+    background-image: url('../_img/roof2.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+    height: 1000px;
+    background-size: cover;     
+}
+/*Configuração do botão*/
+#button {
+    background-color: rgb(214, 209, 209);
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 500%); /*Centralizando o botão na tela*/
+}
+#button:hover{
+    background-color: #46AA5B;
+    transition: background-color 1s;
+}
+
+/*Configuração do logo*/
+#logo {
+    position: absolute;
+    margin-left: 20px;
+}
+
+/*Formatação do menu*/
+nav#menu {
+    display: block;
+}
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 20px;
+}
+nav#menu li {
+    display: inline-block;
+    border: 1px solid #606060;
+    border-radius: 6px;
+    background-color: rgb(214, 209, 209);
+    padding: 10px;
+    margin: 2px;    
+    transition: background-color 1s;
+}
+nav#menu li:hover {
+    background-color: #46AA5B;
+}
+nav#menu h1 {
+    display: none;
+}
+
+/*formatando os links*/
+/*link menu*/
+nav#menu a {
+    color: rgba(0, 0, 0, 0.692);
+    text-decoration: none;
+}
+nav#menu a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/*link button*/
+#button a {
+    color: rgba(0, 0, 0, 0.692);
+    text-decoration: none;
+}
+#button a:hover {
+    color: white;    
+    text-decoration: underline;
+}
