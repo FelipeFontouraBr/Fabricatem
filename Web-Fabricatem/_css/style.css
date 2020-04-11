@@ -29,10 +29,11 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, 500%); /*Centralizando o botão na tela*/
+    border-radius: 25px;
 }
 #button:hover{
-    background-color: #46AA5B;
     transition: background-color 1s;
+    background-color: rgb(194, 240, 204);
 }
 
 /*Configuração do logo*/
@@ -54,15 +55,15 @@ nav#menu ul {
 }
 nav#menu li {
     display: inline-block;
-    border: 1px solid #606060;
+    /*border: 1px solid #606060;
     border-radius: 6px;
-    background-color: rgb(214, 209, 209);
+    background-color: rgb(214, 209, 209);*/
     padding: 10px;
     margin: 2px;    
     transition: background-color 1s;
 }
 nav#menu li:hover {
-    background-color: #46AA5B;
+    border-bottom: 3px solid #46AA5B;
 }
 nav#menu h1 {
     display: none;
@@ -75,8 +76,8 @@ nav#menu a {
     text-decoration: none;
 }
 nav#menu a:hover {
-    color: white;
-    text-decoration: underline;
+    color: rgb(90, 168, 107);
+    /*text-decoration: underline;*/
 }
 
 /*link button*/
@@ -85,6 +86,6 @@ nav#menu a:hover {
     text-decoration: none;
 }
 #button a:hover {
-    color: white;    
-    text-decoration: underline;
+    color: rgb(249, 250, 249);    
+    /*text-decoration: underline;*/
 }
