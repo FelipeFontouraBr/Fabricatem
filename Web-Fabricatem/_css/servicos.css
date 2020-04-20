@@ -1,6 +1,6 @@
-#navbar {
+/*#navbar {
     border-bottom: 1px solid rgb(216, 209, 209);
-}
+}*/
 
 /*Formatação do menu*/
 #menu li {
@@ -13,4 +13,7 @@
 }
 #menu1 a {
     color: black;
+}
+#divB {
+    height: 737px;
 }
