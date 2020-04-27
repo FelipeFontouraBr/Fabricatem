@@ -1,6 +1,6 @@
-/*#navbar {
+#navbar {
     border-bottom: 1px solid rgb(216, 209, 209);
-}*/
+}
 
 /*Formatação do menu*/
 #menu li {
@@ -17,3 +17,12 @@
 #divB {
     height: 737px;
 }
+
+/*Configuração do Texto*/
+.div2 h1 {
+    color: rgb(75, 73, 73);
+    margin-top: 70px;
+    width: 290px;
+    border-bottom: 3px solid #46AA5B;
+    border-bottom-width: 5px;
+    }
