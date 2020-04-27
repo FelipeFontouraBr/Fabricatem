@@ -26,3 +26,8 @@
     border-bottom: 3px solid #46AA5B;
     border-bottom-width: 5px;
     }
+
+/*Formatação do Carrousel*/
+#car {
+    border-radius: 8px;
+}
