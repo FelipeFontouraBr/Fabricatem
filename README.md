@@ -8,7 +8,7 @@ The purpose of this site is to be an institutional digital space where it allows
 - Gutters
 - Solar Heater
 
-#### Technologies
+### Technologies
 
 - HTML5
 - CSS3
